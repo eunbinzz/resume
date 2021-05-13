@@ -154,8 +154,8 @@ a:hover {color: #000;}
 .item2_box > ul li::after {content: ''; display: block;
     					   width: 1px;  height: 100px;
     					   margin: 15px auto; background: #5eb85e;}
-.item2_box > ul li:nth-of-type(4)::after, 
-.item2_box > ul li:nth-of-type(5)::after 
+.item2_box > ul li:nth-of-type(2)::after, 
+.item2_box > ul li:nth-of-type(3)::after 
 							{content: ''; display: block;
 			 				 width: 1px;  height: 30px;
     		 				 margin: 10px auto; background: #5eb85e;}
