@@ -1,12 +1,14 @@
 // 차트
-$(window).ready(function(){
-    draw(90, '.pie-chart1', '#8ec48e');
-    draw(90, '.pie-chart2', '#60985e');
-    draw(65, '.pie-chart3', '#417b42');
-    draw(75, '.pie-chart4', '#356a46');
-    draw(90, '.pie-chart5', '#25542b');
-    draw(80, '.pie-chart6', '#0c391d');
-});
+// $(window).ready(function(){
+    // draw(85, '.chart1', '#8ec48e');
+    // draw(85, '.chart2', '#60985e');
+    // draw(60, '.chart3', '#417b42');
+    // draw(70, '.chart4', '#356a46');
+    // draw(90, '.chart5', '#25542b');
+    // draw(85, '.chart6', '#0c391d');
+// });
+
+
 
 function draw(max, classname, colorname){
     var i = 1;
@@ -31,4 +33,3 @@ $(classname).css({
 }
 
         
-    

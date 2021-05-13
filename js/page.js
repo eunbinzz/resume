@@ -45,14 +45,37 @@ var Page = (function() {
 		initEvents();
 
 	}
-	
+	var arrcnt = 0;
 	function initEvents() {
 
 		// add navigation events
-		$navNext.on( 'click', function() {
+		$navNext.on('click', function() {
+			arrcnt++
+			console.log(arrcnt)
+			if( arrcnt === 3 ) {
+				draw(85, '.chart1', '#8ec48e');
+    			draw(85, '.chart2', '#60985e');
+    			draw(60, '.chart3', '#417b42');
+    			draw(70, '.chart4', '#356a46');
+    			draw(90, '.chart5', '#25542b');
+    			draw(85, '.chart6', '#0c391d');
+			}
 			bb.next();
 			return false;
 		} );
+
+		$navPrev.on('click', function(){
+			arrcnt--
+			console.log(arrcnt)
+			if( arrcnt === 3 ) {
+				draw(85, '.chart1', '#8ec48e');
+    			draw(85, '.chart2', '#60985e');
+    			draw(60, '.chart3', '#417b42');
+    			draw(70, '.chart4', '#356a46');
+    			draw(90, '.chart5', '#25542b');
+    			draw(85, '.chart6', '#0c391d');
+			}
+		})
 
 		$navPrev.on( 'click', function() {
 			bb.prev();
@@ -60,8 +83,10 @@ var Page = (function() {
 		} );
 		
 		// add swipe events
+
 		$items.on( {
 			'swipeleft'		: function( event ) {
+				arrcnt++
 				if( $container.data( 'opened' ) ) {
 					return false;
 				}
@@ -69,6 +94,7 @@ var Page = (function() {
 				return false;
 			},
 			'swiperight'	: function( event ) {
+				arrcnt--
 				if( $container.data( 'opened' ) ) {
 					return false;
 				}
@@ -78,7 +104,7 @@ var Page = (function() {
 		} );
 
 		// show table of contents
-		$tblcontents.on( 'click', toggleTOC );
+		$tblcontents.on('click', toggleTOC );
 
 		// click a menu item
 		$menuItems.on( 'click', function() {
@@ -88,6 +114,17 @@ var Page = (function() {
 				jump = function() {
 					bb.jump( idx + 1 );
 				};
+
+				arrcnt = idx
+				console.log(arrcnt)
+			if( idx === 3 ) {
+				draw(85, '.chart1', '#8ec48e');
+    			draw(85, '.chart2', '#60985e');
+    			draw(60, '.chart3', '#417b42');
+    			draw(70, '.chart4', '#356a46');
+    			draw(90, '.chart5', '#25542b');
+    			draw(85, '.chart6', '#0c391d');
+			}
 			
 			current !== idx ? closeTOC( jump ) : closeTOC();
 

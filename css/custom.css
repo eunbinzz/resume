@@ -147,7 +147,7 @@ a:hover {color: #000;}
 .item2_box > ul {text-align: center; margin: 0 auto; position: relative;}
 .item2_box > ul li:nth-of-type(1) {margin-top: 70px;}
 .item2_box > ul li h3 {font-size: 45px; margin-bottom: 10px; font-weight: bold;}
-.item2_box > ul li p {text-align: center; font-size: 16px; line-height: 1; color: #666;}
+.item2_box > ul li p {text-align: center; font-size: 18px; line-height: 1; color: #666;}
 .item2_box > ul li:nth-of-type(1)::before {content: ''; display: block;
 										   width: 1px;  height: 60px;
 										   margin: 10px auto; background: #5eb85e;}
@@ -177,21 +177,22 @@ a:hover {color: #000;}
 .loading p {font-size: 28px; position: absolute; top: 75%; z-index: 999999999;
 			transform: translate(-50%, -50%); left: 59%; }
 
+
 /* item4 그래프 */
 .item4_box {max-width: 1000px; margin: 0 auto;
 			margin-bottom: 50px;}
 .graph {display: flex; flex-wrap: wrap;
 		align-items: center; justify-content: space-around; }
-.graph .pie-chart {width: 250px; height: 250px; 
-				   margin: 55px 10px; border-radius: 50%;
-				   transition: all 0.5s; position: relative;}
-.graph .pie-chart .center {position: absolute; top: 50%; left: 50%; line-height: 150px;
-						   transform: translate(-50%,-50%); display: block;
-						   width: 150px; height: 150px; border-radius: 50%;
-						   font-size: 30px; background: #fff; text-align: center;}
-.graph .pie-chart .center .number {text-align: center; line-height: 140px; font-size: 25px;}
-.graph .pie-chart .center p:nth-child(2) {margin-top: 55px; font-weight: 500; 
-										  text-align: center; font-size: 27px; font-weight: bold;} 
+.graph .chart {width: 250px; height: 250px; 
+			   margin: 55px 10px; border-radius: 50%;
+			   transition: all 0.5s; position: relative;}
+.graph .chart .center {position: absolute; top: 50%; left: 50%; line-height: 150px;
+					   transform: translate(-50%,-50%); display: block;
+					   width: 150px; height: 150px; border-radius: 50%;
+					   font-size: 30px; background: #fff; text-align: center;}
+.graph .chart .center .number {text-align: center; line-height: 140px; font-size: 25px;}
+.graph .chart .center p:nth-child(2) {margin-top: 55px; font-weight: 500; 
+									  text-align: center; font-size: 27px; font-weight: bold;} 
 
 
 /* item5 이력서 & 자기소개서 */
