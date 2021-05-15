@@ -173,11 +173,11 @@ a:hover {color: #000;}
 .loading {position: fixed; top: 0; left: 0; bottom: 0; right: 0;  
 		  z-index: 999999999;}
 .loading i {font-size: 70px; position: absolute; top: 60%;
-			transform: translate(-50%, -50%); left: 48.3%; color: #228b22;
+			transform: translate(-50%, -50%); left: 48.1%; color: #228b22;
  			animation: spin 2s linear infinite;}
 @keyframes spin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg)}}
 .loading p {font-size: 28px; position: absolute; top: 64%; z-index: 999999999;
-			transform: translate(-50%, -50%); left: 58%; }
+			transform: translate(-50%, -50%); left: 57.5%; }
 
 
 /* item4 그래프 */
