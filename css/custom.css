@@ -269,7 +269,7 @@ a:hover {color: #000;}
 
 
 /* item8 THE END*/
-.item8_box {max-width: 800px; margin: 0 auto; padding-bottom: 30px;}
+.item8_box {max-width: 1000px; margin: 0 auto; padding-bottom: 30px;}
 .item8_box p {text-align: center; line-height: 2; font-size: 23px; padding-top: 120px;}
 #item8 {position: relative;}
 #item8 span {font-size: 70px; font-weight: bold; font-family: 'Cedarville Cursive', cursive;
