@@ -127,6 +127,11 @@ a:hover {color: #000;}
 }
 
 
+/* h2 */
+/* .bb-item .scroller {position: relative;}
+.bb-item .scroller h2::before {content: ''; position: absolute; top: 35px; left: 60px; 
+							   width: 130px; height: 60px; background: #5db65d6c;} */
+
 /* item1 About */
 .item1_box {max-width: 800px; margin: 0 auto;
 			padding-bottom: 50px;}
@@ -154,8 +159,7 @@ a:hover {color: #000;}
 .item2_box > ul li::after {content: ''; display: block;
     					   width: 1px;  height: 100px;
     					   margin: 15px auto; background: #5eb85e;}
-.item2_box > ul li:nth-of-type(2)::after, 
-.item2_box > ul li:nth-of-type(3)::after 
+.item2_box > ul li:nth-of-type(2)::after
 							{content: ''; display: block;
 			 				 width: 1px;  height: 30px;
     		 				 margin: 10px auto; background: #5eb85e;}
