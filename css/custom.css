@@ -212,27 +212,27 @@ a:hover {color: #000;}
 .item6_box {max-width: 1200px; margin: 0 auto; padding-top: 40px; padding-bottom: 30px;}	
 .item6_box > div {text-align: center; position: relative;
 				  overflow: hidden; max-width: 950px; margin: 0 auto 80px;}
-.item6_box > div .line {position: absolute; top: 10px; bottom: 10px; right: 10px; left: 10px; }
-.item6_box > div .line .topline {position: absolute; left: 0; right: 100%; top:0;
+.item6_box .port_box .line {position: absolute; top: 10px; bottom: 10px; right: 10px; left: 10px; }
+.item6_box .port_box .line .topline {position: absolute; left: 0; right: 100%; top:0;
                                   height: 2px; background: #fff; z-index: 999999;
                                   transition: all 0.5s ease-out;}
-.item6_box > div .line .bottomline {position: absolute; left: 100%; right: 0; bottom: 0;
+.item6_box .port_box .line .bottomline {position: absolute; left: 100%; right: 0; bottom: 0;
                                      height: 2px; background: #fff; z-index: 999999;
                                      transition: all 0.5s ease-out;}
-.item6_box > div .line .leftline {position: absolute; right: 0; top: 100%; bottom: 0;
+.item6_box .port_box .line .leftline {position: absolute; right: 0; top: 100%; bottom: 0;
                                     width: 2px; background: #fff; z-index: 999999;
                                     transition: all 0.5s ease-out;}
-.item6_box > div .line .rightline {position: absolute; left: 0; top: 0; bottom: 100%;
+.item6_box .port_box .line .rightline {position: absolute; left: 0; top: 0; bottom: 100%;
                                     width: 2px; background: #fff; z-index: 999999;
                                     transition: all 0.5s ease-out;}
-.item6_box > div:hover .line .topline {right: 0}
-.item6_box > div:hover .line .bottomline {left: 0;}
-.item6_box > div:hover .line .leftline {top: 0;}
-.item6_box > div:hover .line .rightline {bottom: 0;}
-.item6_box > div::before {content: ''; position: absolute; top: 0; left: 0; bottom: 0; right: 0;
+.item6_box .port_box:hover .line .topline {right: 0}
+.item6_box .port_box:hover .line .bottomline {left: 0;}
+.item6_box .port_box:hover .line .leftline {top: 0;}
+.item6_box .port_box:hover .line .rightline {bottom: 0;}
+.item6_box .port_box::before {content: ''; position: absolute; top: 0; left: 0; bottom: 0; right: 0;
 						  background: rgba(0,0,0,0); transition: all 0.5s; z-index: 1} 
-.item6_box > div:hover::before {background: rgba(0,0,0,0.5);}
-.item6_box > div:hover .txtbox {opacity: 1;}
+.item6_box .port_box:hover::before {background: rgba(0,0,0,0.5);}
+.item6_box .port_box:hover .txtbox {opacity: 1;}
 .item6_box .txtbox {position: absolute; z-index: 999; top: 50%; left: 50%; padding: 10px 0 20px;
 					 transform: translate(-50%, -50%); opacity: 0; width: 80%;
 					 transition: all 0.5s; background: rgba(221, 221, 221, 0.9) }
@@ -243,6 +243,18 @@ a:hover {color: #000;}
 .item6_box .txtbox a {background: #777; color: #fff; padding: 5px 10px;
 						font-size: 14px; transition: all 0.5s;}
 .item6_box .txtbox a:hover {background :#228b22}
+
+
+/* 리뉴얼 */
+.item6_box .txtbox button {background: none; border: 1px solid #fff; padding: 5px 10px}
+.tot_board .tabmenu {overflow: hidden; border-bottom: 1px solid #ddd;}
+.tot_board .tabmenu li {float: left; border: 1px solid #ddd; border-bottom: none; padding: 20px 50px;
+                       cursor: pointer; font-size: 21px;}
+.tot_board .tabmenu li.active {background: #3ea83e; color: #fff;}
+.tot_board .contents > div {display: none}
+.tot_board .contents > div.active {display: block}
+.tot_board .contents {position: relative;}
+
 
 
 /* item7 Please */
