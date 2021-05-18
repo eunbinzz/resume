@@ -150,8 +150,8 @@ a:hover {color: #000;}
     					 background: #5eb85e;}
 .item2_box > ul {text-align: center; margin: 0 auto 30px; position: relative; }
 .item2_box > ul li:nth-of-type(1) {margin-top: 70px;}
-.item2_box > ul li h3 {font-size: 55px; margin-bottom: 10px; font-weight: bold;}
-.item2_box > ul li p {text-align: center; font-size: 22px; line-height: 1; color: #666;}
+.item2_box > ul li h3 {font-size: 53px; margin-bottom: 10px; font-weight: bold;}
+.item2_box > ul li p {text-align: center; font-size: 20px; line-height: 1; color: #666;}
 .item2_box > ul li:nth-of-type(1)::before {content: ''; display: block;
 										   width: 1px;  height: 60px;
 										   margin: 10px auto; background: #5eb85e;}
@@ -172,12 +172,12 @@ a:hover {color: #000;}
 .item3_box ul li {font-size: 20px; line-height: 2; text-align: center;}
 .loading {position: fixed; top: 0; left: 0; bottom: 0; right: 0;  
 		  z-index: 999999999;}
-.loading i {font-size: 70px; position: absolute; top: 60%;
-			transform: translate(-50%, -50%); left: 48.1%; color: #228b22;
+.loading i {font-size: 70px; position: absolute; top: 520px;
+			transform: translate(-50%, -50%); left: 47.3%; color: #228b22;
  			animation: spin 2s linear infinite;}
 @keyframes spin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg)}}
-.loading p {font-size: 28px; position: absolute; top: 64%; z-index: 999999999;
-			transform: translate(-50%, -50%); left: 57.5%; }
+.loading p {font-size: 28px; position: absolute; top: 550px; z-index: 999999999;
+			transform: translate(-50%, -50%); left: 58.8%; }
 
 
 /* item4 그래프 */
@@ -200,7 +200,7 @@ a:hover {color: #000;}
 .item5_box {max-width: 800px; margin: 0 auto; padding-top: 40px; padding-bottom: 30px; align-items: center;
 			display: flex; justify-content: space-around;}
 .item5_box > div {position: relative;}
-.item5_box > div h3 {text-align: center; font-size: 25px; padding-bottom: 10px; 
+.item5_box > div h3 {text-align: center; font-size: 30px; padding-bottom: 20px; 
 					 font-weight: bold; margin-top: 20px;}
 .item5_box > div a {text-align: right; position: absolute; bottom: -10px; right: -30px;
 					transform: translate(-50%, -50%); font-size: 38px;
