@@ -127,14 +127,12 @@ a:hover {color: #000;}
 }
 
 
-/* h2 */
-/* .bb-item .scroller {position: relative;}
-.bb-item .scroller h2::before {content: ''; position: absolute; top: 35px; left: 60px; 
-							   width: 130px; height: 60px; background: #5db65d6c;} */
 
 /* item1 About */
+.item1_box img {border-radius: 20px;}
 .item1_box {max-width: 800px; margin: 0 auto; padding-top: 40px; padding-bottom: 30px;}
 .item1_box p {text-align: center; font-size: 23px;}
+.item1_box p:nth-child(1) {margin-bottom: 30px;} 
 .item1_box p:hover a {color: #228b22}
 
 
