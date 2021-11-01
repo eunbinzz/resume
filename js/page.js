@@ -53,12 +53,14 @@ var Page = (function() {
 			arrcnt++
 			console.log(arrcnt)
 			if( arrcnt === 3 ) {
-				draw(85, '.chart1', '#8ec48e');
-    			draw(85, '.chart2', '#60985e');
-    			draw(60, '.chart3', '#417b42');
-    			draw(70, '.chart4', '#356a46');
-    			draw(90, '.chart5', '#25542b');
-    			draw(85, '.chart6', '#0c391d');
+				draw(85, '.chart1', '#D1FFC9');
+    			draw(85, '.chart2', '#9BFF93');
+    			draw(60, '.chart3', '#77E56F');
+    			draw(70, '.chart4', '#53C14B');
+    			draw(90, '.chart5', '#006700');
+    			draw(85, '.chart6', '#004300');
+				draw(55, '.chart7', '#41AF39');
+    			draw(65, '.chart8', '#2F9D27');
 			}
 			bb.next();
 			return false;
@@ -68,12 +70,14 @@ var Page = (function() {
 			arrcnt--
 			console.log(arrcnt)
 			if( arrcnt === 3 ) {
-				draw(85, '.chart1', '#8ec48e');
-    			draw(85, '.chart2', '#60985e');
-    			draw(60, '.chart3', '#417b42');
-    			draw(70, '.chart4', '#356a46');
-    			draw(90, '.chart5', '#25542b');
-    			draw(85, '.chart6', '#0c391d');
+				draw(85, '.chart1', '#D1FFC9');
+    			draw(85, '.chart2', '#9BFF93');
+    			draw(60, '.chart3', '#77E56F');
+    			draw(70, '.chart4', '#53C14B');
+    			draw(90, '.chart5', '#006700');
+    			draw(85, '.chart6', '#004300');
+				draw(55, '.chart7', '#41AF39');
+    			draw(65, '.chart8', '#2F9D27');
 			}
 		})
 
@@ -118,12 +122,14 @@ var Page = (function() {
 				arrcnt = idx
 				console.log(arrcnt)
 			if( idx === 3 ) {
-				draw(85, '.chart1', '#8ec48e');
-    			draw(85, '.chart2', '#60985e');
-    			draw(60, '.chart3', '#417b42');
-    			draw(70, '.chart4', '#356a46');
-    			draw(90, '.chart5', '#25542b');
-    			draw(85, '.chart6', '#0c391d');
+				draw(85, '.chart1', '#D1FFC9');
+    			draw(85, '.chart2', '#9BFF93');
+    			draw(60, '.chart3', '#77E56F');
+    			draw(70, '.chart4', '#53C14B');
+    			draw(90, '.chart5', '#006700');
+    			draw(85, '.chart6', '#004300');
+				draw(55, '.chart7', '#41AF39');
+    			draw(65, '.chart8', '#2F9D27');
 			}
 			
 			current !== idx ? closeTOC( jump ) : closeTOC();
